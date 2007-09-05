@@ -1,4 +1,4 @@
-%define version	20060429
+%define version	20070529
 %define release	%mkrel 1
 
 Name:      skkdic
