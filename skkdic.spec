@@ -22,7 +22,7 @@ SKK is a Simple Kana-to-Kanji conversion program.
 
 
 %prep
-%setup -q -n %name
+%setup -q -n %name-%version.orig
 
 %install
 rm -rf $RPM_BUILD_ROOT
