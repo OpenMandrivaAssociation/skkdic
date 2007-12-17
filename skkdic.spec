@@ -13,7 +13,6 @@ URL:       http://openlab.ring.gr.jp/skk/
 # http://openlab.jp/skk/skk/dic/SKK-JISYO.L 
 Source0:   %{name}-%{version}.tar.bz2
 
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildArch: noarch
 
 %description
