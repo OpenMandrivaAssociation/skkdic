@@ -6,6 +6,7 @@ Summary:   SKK Dictionaries for Japanese
 Version:   %{version}
 Release:   %{release}
 Group:     System/Internationalization
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License:   GPL
 URL:       http://openlab.ring.gr.jp/skk/
 
