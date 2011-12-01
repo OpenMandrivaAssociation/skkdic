@@ -25,12 +25,12 @@ SKK is a Simple Kana-to-Kanji conversion program.
 %setup -q -n %name-%version.orig
 
 %install
-rm -rf $RPM_BUILD_ROOT
-mkdir -p $RPM_BUILD_ROOT/%{_datadir}/skk
-install -m 644 SKK-JISYO.* $RPM_BUILD_ROOT/%{_datadir}/skk
+rm -rf %{buildroot}
+mkdir -p %{buildroot}/%{_datadir}/skk
+install -m 644 SKK-JISYO.* %{buildroot}/%{_datadir}/skk
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 
 %files
