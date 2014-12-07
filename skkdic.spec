@@ -1,5 +1,5 @@
 %define version	20070529
-%define release	16
+%define release	17
 
 Name:      skkdic
 Summary:   SKK Dictionaries for Japanese
