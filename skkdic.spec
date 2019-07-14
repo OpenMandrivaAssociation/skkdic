@@ -4,7 +4,7 @@
 Name:      skkdic
 Summary:   SKK Dictionaries for Japanese
 Version:   %{version}
-Release:   %{release}
+Release:	1
 Group:     System/Internationalization
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License:   GPL
