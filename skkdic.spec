@@ -1,10 +1,10 @@
 %define version	20070529
-%define release	19
+%define release	20
 
 Name:      skkdic
 Summary:   SKK Dictionaries for Japanese
 Version:   %{version}
-Release:	1
+Release:	2
 Group:     System/Internationalization
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License:   GPL
