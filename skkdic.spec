@@ -8,7 +8,7 @@ Release:	2
 Group:     System/Internationalization
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License:   GPL
-URL:       http://openlab.ring.gr.jp/skk/
+URL:       https://openlab.ring.gr.jp/skk/
 
 # Use this file:
 # http://openlab.jp/skk/skk/dic/SKK-JISYO.L 
